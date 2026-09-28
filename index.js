@@ -97,3 +97,6 @@ async function start() {
 
 start();
 
+
+import http from 'http';
+http.createServer((req, res) => res.end('Bot is Alive!')).listen(process.env.PORT || 3000);
