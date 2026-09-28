@@ -1,0 +1,16 @@
+{
+  "name": "islamic-quiz-bot",
+  "version": "1.0.0",
+  "description": "بوت واتساب لإدارة المسابقات الدينية بالتفاعلات (Reactions)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "pino": "^10.3.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
